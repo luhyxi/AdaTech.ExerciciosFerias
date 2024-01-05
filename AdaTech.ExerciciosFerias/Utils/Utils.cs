@@ -118,7 +118,7 @@ namespace AdaTech.ExerciciosFerias.Utils
             }
         }
 
-        protected static int ReadOption(int min, int max)
+        public static int ReadOption(int min, int max)
         {
             bool valid = false;
             int number = 0;
