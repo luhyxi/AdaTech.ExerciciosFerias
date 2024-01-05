@@ -21,13 +21,13 @@ namespace AdaTech.ExerciciosFerias.Exercicios
                 if (Regex.IsMatch(input, "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$"))
                 {
                     Console.Clear();
-                    Console.WriteLine("A Senha está no padrão!");
+                    Console.WriteLine($"A senha {input} está no padrão!");
                     break;
                 }
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("Senha inválida, por favor tente denovo.");
+                    Console.WriteLine($"A senha {input} é inválida, por favor tente denovo.");
                     Console.ReadKey();
                     Console.Clear();
                 }
